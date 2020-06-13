@@ -93,9 +93,12 @@ thead{
 
  .child2 span{
 	display: inline-block;
-	border-radius: 9%;
+	border-radius: 10%;
 	border: 1px solid #5d6d7e;
-	background: #ddd;
+	background: rgb(15, 128, 15) ;
+	color: #fff;
+	font-style: initial;
+	font-size: 18px;
 	padding: 1%;
 	margin: 1%;
 	box-shadow: 1px 1px 8px   #000;
@@ -109,12 +112,18 @@ thead{
 	padding: 1%;
 	margin: 1%;
 	text-align: center;
-	box-shadow: 0px 8px 8px -8px #000;
-	border-radius: 10px 0px;
+	box-shadow: 1px 3px 8px #000;
+	border-radius: 5%;
 }
 
 .child2{
 	width: 90%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 1px 3px 10px #000;
+	border-radius: 20px 20px;
 }
 }
 
@@ -127,7 +136,15 @@ thead{
 	padding: 1%;
 	margin: 1%;
 	text-align: center;
-	box-shadow: 0px 8px 8px -8px #000;
-	border-radius: 10px 0px;
+	box-shadow: 1px 3px 10px  #000;
+	border-radius: 5%;
+}
+.child2{
+	width: 80%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 1px 3px 10px #000;
+	border-radius: 20px 20px;
 }
 }
